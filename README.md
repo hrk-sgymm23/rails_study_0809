@@ -10,14 +10,18 @@ https://qiita.com/Yusuke_Hoirta/items/3a50d066af3bafbb8641#%E7%92%B0%E5%A2%83%E6
 
 ## 始め方
 リポジトリをクローン
+
 ``` git clone git@github.com:hrk-sgymm23/rails_study_0809.git ```
 
 docker-compose.ymlのあるディレクトリの位置で
+
 ``` docker-compose up ```
 
 DBを生成
+
 ``` rails migrate ```
 
 立ち上げたアプリケーションにアクセス
+
 ``` http://localhost:9000 ```
 
